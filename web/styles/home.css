@@ -1,0 +1,49 @@
+img#logo {
+	display:block;
+	margin:20px auto 0px;
+	max-width:60%;
+}
+
+input#searchbox {
+	margin: 40px auto;
+	width:40%;
+	max-width:600px;
+	display:block;
+}
+
+div#results {
+	width: 80%;
+	max-width:900px;
+	border-radius: 10px;
+	border:1px solid #aaa;
+	background-color:#fff;
+	margin: 0px auto;
+}
+
+div#results ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+div#results li {
+	padding: 20px;
+	margin: 10px 10px 0px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+}
+
+div#results li:hover {
+	cursor: pointer;
+	background-color: #e4e4e4;
+}
+
+div#results .name {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+div#results .email, div#results .number {
+	font-size: 1.5em;
+}
